@@ -1,0 +1,5 @@
+INSERT INTO `dbpercetakan`.`print` (`id_print`, `userName`, `pesanan_print`, `ukuran_print`, `black_print`, `color_print`, `sisi_print`, `jilid_print`, `harga_print`, `file_print`, `catatan_print`) VALUES ('1', 'hafiz', '125678', 'Kertas A4', '10', '5', '1', 'tidak dijilid', '7500', 'haha.pdf', 'saya ngeprint 15 lembar harus siap dan diantar kerumah dalam waktu 10 menit');
+
+INSERT INTO `dbpercetakan`.`spanduk` (`id_spanduk`, `userName`, `pesanan_spanduk`, `bahan_spanduk`, `ukuran_spanduk`, `jumlah_spanduk`, `harga_spanduk`, `file_spanduk`, `catatan_spanduk`) VALUES (NULL, 'hafiz', '127126', 'Flexy China 280 GSM', '100 x 100 cm', '1', '16500', 'spanduk.jpg', 'siap besok ya mas');
+
+UPDATE `dbpercetakan`.`transaksi` SET `status_transaksi` = '2' WHERE `transaksi`.`id_transaksi` = 3;
