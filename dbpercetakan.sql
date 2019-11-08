@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2019 at 05:15 AM
+-- Generation Time: Nov 08, 2019 at 04:52 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.1.27
 
@@ -81,7 +81,8 @@ INSERT INTO `brosur` (`id_brosur`, `userName`, `nama_produk`, `pesanan_brosur`, 
 (11, 'hafiz', 'brosur', '5d517e826cf85', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 50, 150000, '5d517eb019228.jpg', '', 'asiyap'),
 (12, 'hafiz', 'brosur', '5d54b3b7d9557', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 100, 300000, '5d54b3d421a57.jpg', '', 'siapkan besok ya'),
 (13, 'nami', 'brosur', '5d54f741afd08', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 500, 500000, '5d54f75c6a9b8.jpg', '', 'siap dalam tiga hari ya'),
-(14, 'hafiz', 'brosur', '5dbd11cd4c9d8', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 100, 200000, '5dbd121f0aa28.png', '', '');
+(14, 'hafiz', 'brosur', '5dbd11cd4c9d8', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 100, 200000, '5dbd121f0aa28.png', '', ''),
+(15, 'hafiz', 'brosur', '5dc4c8b7bbc5c', 'Kertas A4', 'Art Paper 120 GSM', 1, 'Tidak dilipat', 200, 400000, '5dc4c8ea49b67.png', '', 'asddsadasd');
 
 -- --------------------------------------------------------
 
@@ -248,7 +249,8 @@ CREATE TABLE `print` (
 
 INSERT INTO `print` (`id_print`, `userName`, `nama_produk`, `pesanan_print`, `ukuran_print`, `black_print`, `color_print`, `sisi_print`, `jilid_print`, `harga_print`, `file_print`, `catatan_print`) VALUES
 (5, 'nami', 'print', '5d4e9abce94e7', 'Kertas A4', 15, 5, 1, '3000', 9250, '5d4e9add440b5.docx', 'siap dalam 10 menit ya mas'),
-(8, 'hafiz', 'print', '5d501049e1a86', 'Kertas A4', 15, 7, 1, '3000', 10250, '5d5010654aeac.docx', 'siapkan yaa');
+(8, 'hafiz', 'print', '5d501049e1a86', 'Kertas A4', 15, 7, 1, '3000', 10250, '5d5010654aeac.docx', 'siapkan yaa'),
+(9, 'hafiz', 'print', '5dc4d46f57664', 'Kertas A4', 4, 4, 2, '3000', 9000, '5dc4d48fd89d3.docx', 'sasd');
 
 -- --------------------------------------------------------
 
@@ -412,7 +414,7 @@ ALTER TABLE `banner`
 -- AUTO_INCREMENT for table `brosur`
 --
 ALTER TABLE `brosur`
-  MODIFY `id_brosur` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_brosur` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `cetak_banner`
@@ -448,7 +450,7 @@ ALTER TABLE `pembayaran`
 -- AUTO_INCREMENT for table `print`
 --
 ALTER TABLE `print`
-  MODIFY `id_print` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_print` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `produksi`
